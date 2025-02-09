@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="r1IGRCDPYlnl2TS1v17m">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRn_P4TgFPu2T9XYJtlf-1" target="VRn_P4TgFPu2T9XYJtlf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-1" value="User Interface (Front-End)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-2" value="&lt;ul&gt;&lt;li&gt;MS Access Forms&lt;/li&gt;&lt;li&gt;Employees &amp;amp; Managers interact with UI&lt;/li&gt;&lt;li&gt;VBA Scripts handle button actions&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VRn_P4TgFPu2T9XYJtlf-1">
+          <mxGeometry x="-20" y="40" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRn_P4TgFPu2T9XYJtlf-3" target="VRn_P4TgFPu2T9XYJtlf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-3" value="Business Logic (Script)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-4" value="&lt;ul&gt;&lt;li&gt;Automate payroll calculations&lt;/li&gt;&lt;li&gt;Automatically track and calculate sick leave and vacation hours&lt;/li&gt;&lt;li&gt;Processes user requests and database queries&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VRn_P4TgFPu2T9XYJtlf-3">
+          <mxGeometry x="-20" y="50" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRn_P4TgFPu2T9XYJtlf-6" target="VRn_P4TgFPu2T9XYJtlf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-6" value="Database (Back-End)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-7" value="&lt;ul&gt;&lt;li&gt;MS Access Database&lt;/li&gt;&lt;li&gt;Tables for employee data, timecard data, and schedules&lt;/li&gt;&lt;li&gt;Queries to aggregate and process the data&lt;/li&gt;&lt;li&gt;Relationships between tables&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VRn_P4TgFPu2T9XYJtlf-6">
+          <mxGeometry x="-20" y="55" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-9" value="Security" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="550" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VRn_P4TgFPu2T9XYJtlf-10" value="&lt;ul&gt;&lt;li&gt;User Authentication&lt;/li&gt;&lt;li&gt;Security Level 1: Access to all employee details&lt;/li&gt;&lt;li&gt;Ensures data integrity: accurate and consistent storage&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VRn_P4TgFPu2T9XYJtlf-9">
+          <mxGeometry x="-20" y="55" width="290" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
